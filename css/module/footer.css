@@ -7,7 +7,6 @@
 
 .footer__container {
   display: grid;
-  grid-column: 1fr 4fr 1fr;
   gap: 34px 10px;
   grid-template-areas: 
     "logo navigation navigation"
