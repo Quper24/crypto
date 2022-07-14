@@ -2,9 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
@@ -14,8 +12,7 @@ body {
   font-family: Inter, sans-serif;
 }
 
-img,
-svg {
+img, svg {
   max-width: 100%;
   height: auto;
   max-height: 100%;
@@ -28,7 +25,7 @@ button {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: inherit
 }
 
 ul {
@@ -37,10 +34,7 @@ ul {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
   margin: 0;
 }
 
@@ -53,22 +47,21 @@ p {
 .overlay {
   position: fixed;
   inset: 0;
-  z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
   overflow-y: auto;
   overflow-x: hidden;
-  text-align: center;
   opacity: 0;
   visibility: hidden;
   transition-property: opacity, visibility;
-  transition-duration: 0.36s;
   transition-timing-function: ease-in-out;
   white-space: nowrap;
+  text-align: center;
 }
 
 .overlay:after {
-  content: "";
+  content: '';
   display: inline-block;
   vertical-align: middle;
   height: 100%;
