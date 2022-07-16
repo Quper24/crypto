@@ -32,7 +32,7 @@
     align-items: flex-start;
   }
 
-  .navigation__list_padding {
+  .navigation__list_header {
     padding-left: 15px;
     padding-right: 15px;
   }
