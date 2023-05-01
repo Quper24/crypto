@@ -10,6 +10,14 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: Inter, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column; 
+  flex-grow: 1;
 }
 
 img, svg {

@@ -3,11 +3,19 @@
   background-image: url('../../img/background.jpg');
   background-size: cover;
   background-position: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero__container {
   padding-top: 127px;
   padding-bottom: 127px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 .hero__title {
